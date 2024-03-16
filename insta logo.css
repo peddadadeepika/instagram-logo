@@ -1,0 +1,23 @@
+img{
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 550px;
+    margin-right: 450px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, 3fdf497 5%, #fd5959 45%, #d6749f 60%, #4067dd 92%);
+    filter: drop-shadow(0 0 2rem rgd(160, 144, 144));
+    animation: updown 2s infinite alternate;
+    border-radius: 100%;
+
+}@keyframes updown {
+    0%{
+        transform: translateX(0);
+    
+}
+100%{
+    transform: translateX(-100px);
+}
+}
+img{
+    border-radius: 25%;
+    box-shadow: 0 0 40px red;
+}
